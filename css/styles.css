@@ -62,10 +62,12 @@ body {
 }
 
 /* me */
-.me_fontfamily{font-family: "Roboto Slab", serif;
+.me_fontfamily{font-family: "Zantroke", "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;  } 
+
+.me_img{visibility:hidden;}
 
 hr {
   margin: 1rem 0;
@@ -7397,11 +7399,11 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background: url(../assets/img/portfolio/background.jpg) !important;
+  background: url(../assets/img/portfolio/background_img3.jpg) !important;
 }
 
 .bg-secondary {
-  background: url(../assets/img/portfolio/background.jpg) !important;
+  background: url(../assets/img/portfolio/background_img3.jpg) !important;
 }
 
 .bg-success {
@@ -10886,10 +10888,10 @@ html {
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: #3C3932;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff;
+  color: #3C3932;
 }
 
 .btn-xl {
@@ -10912,7 +10914,7 @@ html {
   padding-bottom: 1rem;
   font-family: "Noto Sans";
   /* "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-  font-weight: 600;
+  font-weight: 700;
 }
 #mainNav .navbar-brand {
   color: #3C3932;
