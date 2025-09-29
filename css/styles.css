@@ -62,12 +62,16 @@ body {
 }
 
 /* me */
-.me_fontfamily{font-family: "Zantroke", "Roboto Slab", serif;
+.me-fontfamily{font-family: "Zantroke", "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;  } 
 
-.me_img{visibility:hidden;}
+.me-img{visibility:hidden;}
+/* .me-background-color{background-color: #f5f5f5;} */
+
+
+/* //me */
 
 hr {
   margin: 1rem 0;
