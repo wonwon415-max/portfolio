@@ -61,17 +61,20 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* me */
+/* custom */
 .me-fontfamily{font-family: "Zantroke", "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;  } 
 
 .me-img{visibility:hidden;}
-/* .me-background-color{background-color: #f5f5f5;} */
+.custom-title-icon{visibility:hidden;}
+
+.me-background-color{background-color: #f5f5f5;}
 
 
-/* //me */
+
+/* //custom */
 
 hr {
   margin: 1rem 0;
@@ -2172,7 +2175,7 @@ progress {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #F5F5F5;
   background-clip: padding-box;
   border: 0.125rem solid #ced4da;
   -webkit-appearance: none;
@@ -7404,11 +7407,15 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background: url(../assets/img/portfolio/background_img3.jpg) !important;
+  background: url(../assets/img/portfolio/background_img3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bg-secondary {
-  background: url(../assets/img/portfolio/background_img3.jpg) !important;
+  background: url(../assets/img/portfolio/background_img3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bg-success {
