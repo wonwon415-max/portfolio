@@ -10,6 +10,11 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -65,7 +70,14 @@ body {
 .me-fontfamily{font-family: "Zantroke", "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: weight;
-  font-style: normal;  } 
+  font-style: normal;  
+} 
+.me-notosans{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 
 .me-img{visibility:hidden;}
 .custom-title-icon{visibility:hidden;}
@@ -7355,7 +7367,7 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  color: #2c3e50 !important;
+  /* color: #2c3e50 !important; */
 }
 
 .text-success {
@@ -10880,6 +10892,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  visibility: hidden;
 }
 .divider-custom .divider-custom-line {
   width: 100%;
