@@ -1,0 +1,244 @@
+/* 초기화 */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+ul,ol,li{
+  list-style: none;
+}
+img{
+  vertical-align: top;
+}
+
+/* custom */
+body{
+   font-family: 'pretendard';
+   color: #232323;
+}
+
+/* header */
+.header:hover{
+  background-color: #A8AEC1;
+  color: #fff;
+}
+.header .header_content{
+  width: 1640px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;}
+
+.header .header_content nav ul{display: flex;}
+.header nav ul li a{padding: 30px 45px;}
+.header nav ul li a:nth-child(1){padding-left:65px;}
+.header nav ul li a:hover{color:#232323;}
+.hambugerbar{margin-left: auto;}
+
+/* new item */
+.newitem{
+  background-color: #F7F6F2;
+  height: 1108px;
+}
+.newitem .newitemmaintext{
+  text-align: center;
+  padding-top: 150px;
+  font-size: 60px;
+  font-family: 'Bold Days';
+  color: #F05098;
+  margin-bottom: 55px;
+}
+.newcontent ul{
+  width: 1606px;
+  margin: 0 auto;
+  display: flex;
+}
+.newcontent ul li{
+  padding: 25px;
+}
+.greencakecard{
+  display: flex;
+}
+.greencakecard .peachcakecard{
+  flex-direction: column;
+}
+.greencaketext{
+  background-color: #fff;
+  width: 276px;
+  height: 330px;
+  border-radius: 0 50px 50px 0;
+  position: relative;
+}
+.greencaketext p{
+  position: absolute;
+  top: 34px;
+  left: 21px;
+  color: #9CAC34;
+  font-size: 25px;
+}
+.greencaketext a img{
+  position: absolute;
+  right: 20px;
+  bottom: 14px;
+}
+.peachcakecard{
+  display: flex;
+  margin-top: 50px;
+}
+.peachcaketext{
+  background-color: #fff;
+  width: 276px;
+  height: 330px;
+  border-radius: 50px 0 0 50px;
+  position: relative;
+}
+.peachcaketext p{
+  position: absolute;
+  top: 34px;
+  left: 21px;
+  color: #FCA8A6;
+  font-size: 25px;
+}
+.peachcaketext a img{
+  position: absolute;
+  bottom: 20px;
+  left: 14px;
+}
+
+/* menu */
+.menu{
+  height: 666px;
+  background-color: #FFEBE4;
+}
+.menu h2{
+  text-align: center;
+  padding-top: 150px;
+  font-size: 60px;
+  font-family: 'Bold Days';
+  color: #F05098;
+}
+.menu ul{
+  width: 1606px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
+}
+
+/* event */
+.event{
+  height: 1126px;
+  background-color:#F7F6F2;
+}
+.event h2{
+  padding-top: 150px;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Bold Days';
+  color: #F05098;
+}
+.event ul{
+  width: 2712px;
+  display: flex;
+  justify-content: space-between;
+  transform: translateX(-395px);
+  margin-top: 55px;
+}
+.event ul li p{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* brandstory */
+.brandstory{
+  height: 1725px;
+  background-color: #FFEBE4;
+}
+.brandstory h2{
+  text-align: center;
+  padding-top: 150px;
+  font-size: 60px;
+  font-family: 'Bold Days';
+  color:#F05098
+}
+.brandstory article{
+  width: 1606px;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+.brandstory_yogurt{
+  display: flex;
+}
+.yogurt_text{
+  margin-left: 50px;
+  margin-top: 181px;
+}
+.yogurt_text span{
+  display: flex;
+  font-size: 32px;
+  color: #F05098;
+  align-items: center;
+}
+.yogurt_text span img{
+  margin-left: 40px;
+}
+.yogurt_text p{
+  margin-top: 32px;
+  line-height: 30px;
+}
+.brandstory_player{
+  display: flex;
+  margin-top: 80px;
+}
+.player_text{
+  margin-top: 227px;
+  margin-right: 103px;
+}
+.player_text span{
+  display: flex;
+  font-size: 32px;
+  color: #F05098;
+  align-items: center;
+}
+.player_text span a{
+  margin-left: 40px;
+}
+.player_text p{
+  margin-top: 32px;
+  line-height: 30px;
+}
+/* footer */
+footer{
+  height: 280px;
+  background-color: #8DA1B9;
+  color: #fff;
+  font-family: 'Noto Sans';
+}
+footer ul{display: flex;}
+.footer_content{width: 1640px; margin: 0 auto; position: relative;}
+.footer_content .footer_top{
+  height: 78px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+}
+.footer_content div img{margin-top: 30px;}
+.footer_bottom{
+  flex-direction: column; 
+  margin-top:14px;
+  gap: 7px;
+}
+.footer_bottom .bottom_top{display: flex; gap: 22px;}
+.footer_bottom .bottom_bottom{display:flex; gap: 22px;}
+.sns{
+  position: absolute;
+  top: 109px;
+  right: 0;
+}
+.sns a{margin-left: 30px;}

@@ -1,0 +1,27 @@
+:root{
+  /* 폰트 */
+  --font-size16: 16px;
+  --font-size18: 18px;
+  --font-size20: 20px;
+  --font-size24: 24px;
+  --font-size26: 26px;
+  --font-size36: 36px;
+  --font-size40: 40px;
+  --font-size48: 48px;
+  --font-weight400: 400;
+  --font-weight500: 500;
+  --font-weight600: 600;
+
+  /* 색상 */
+  --white: #fff;
+  --gray-scale600: #121212;
+  --gray-scale500: #414141;
+  --gray-scale400: #4A4A4A;
+  --gray-scale300: #6E6E6E;
+  --gray-scale200: #808080;
+  --gray-scale100: #C2C2C2;
+
+  --blue100: #0D48B9;
+  --blue200: #124296;
+  --blue300: #10295B;
+}

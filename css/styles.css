@@ -84,6 +84,27 @@ body {
 
 .me-background-color{background-color: #f5f5f5;}
 
+/* 자세히 보기 버튼 */
+.me-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.me-button{
+  background: #F99090;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: flex;
+  text-align: center;
+  color: white;
+  gap: 5px;
+}
+.me-button span{
+  display: block;
+}
+
 
 
 /* //custom */
@@ -236,7 +257,7 @@ sup {
 
 a {
   color: #FA4242;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: FA4242;
