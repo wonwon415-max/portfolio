@@ -11,8 +11,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 :root {
@@ -37,8 +37,6 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
@@ -54,31 +52,18 @@
   }
 }
 
+
+/* 커스텀 */
 body {
-  margin: 0;
-  font-family: var(--bs-font-sans-serif);
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+  font-family: "Roboto", "Noto Sans KR", sans-serif !important;
 
-/* custom */
-.me-fontfamily{font-family: "Zantroke", "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;  
-} 
-.me-notosans{
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: normal;
   font-style: normal;
+  color: #424242;
+  font-variation-settings:
+    "wdth" 100;
 }
-
 .me-img{visibility:hidden;}
 .custom-title-icon{visibility:hidden;}
 
@@ -132,14 +117,59 @@ body {
 .me-button span{
   display: block;
 }
-
 .about .col{
   padding-left: 0;
   padding-right: 0;
 }
+.me-background-img{
+  background: url(../assets/img/portfolio/profile_background.jpg);
+}
+.me-background-img h2{
+  padding-top: 6rem;
+}
 
+/* 프로필 */
+section .profile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6.21875rem 0;
+}
+section .profile picture{
+  margin-right: 9.15625rem;
+  display: block;
+}
+.profile-column{
+  flex-direction: column;
+  margin-right: 8.1875rem;
+}
+.profile-title{
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid inherit;
+  background-color: #424242;
+  color: #F99090;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.profile-days{
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.profile-career{
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.skills div img{
+  display: inline-block;
+  margin: 8px;
+}
+.font-weight-bold{
+  font-weight: 600;
+}
 
-/* //custom */
+/* //커스텀 */
+
 
 hr {
   margin: 1rem 0;
@@ -155,7 +185,7 @@ hr:not([size]) {
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
@@ -205,10 +235,10 @@ h6, .h6 {
   font-size: 1rem;
 }
 
-p {
+/* p {
   margin-top: 0;
   margin-bottom: 1rem;
-}
+} */
 
 abbr[title],
 abbr[data-bs-original-title] {
@@ -7448,9 +7478,9 @@ textarea.form-control-lg {
   color: #212529 !important;
 }
 
-.text-white {
+/* .text-white {
   color: #3C3932 !important;
-}
+} */
 
 .text-body {
   color: #212529 !important;
