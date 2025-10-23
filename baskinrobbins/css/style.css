@@ -12,6 +12,8 @@ ul,ol,li{
   list-style: none;
 }
 img{
+  max-width: 100%;
+  height: auto;
   vertical-align: top;
 }
 
@@ -22,10 +24,6 @@ body{
 }
 
 /* header */
-.header:hover{
-  background-color: #A8AEC1;
-  color: #fff;
-}
 .header .header_content{
   width: 1640px;
   height: 100px;
@@ -36,7 +34,9 @@ body{
 .header .header_content nav ul{display: flex;}
 .header nav ul li a{padding: 30px 45px;}
 .header nav ul li a:nth-child(1){padding-left:65px;}
-.header nav ul li a:hover{color:#232323;}
+.header nav ul li a:hover{
+  font-weight: 600;
+}
 .hambugerbar{margin-left: auto;}
 
 /* new item */
@@ -133,6 +133,7 @@ body{
 .event{
   height: 1126px;
   background-color:#F7F6F2;
+
 }
 .event h2{
   padding-top: 150px;
@@ -141,11 +142,12 @@ body{
   font-family: 'Bold Days';
   color: #F05098;
 }
+
 .event ul{
-  width: 2712px;
+  width: 1606px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  transform: translateX(-395px);
   margin-top: 55px;
 }
 .event ul li p{
