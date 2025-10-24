@@ -12,8 +12,6 @@
  */
 
 /* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 :root {
   --bs-blue: #0d6efd;
@@ -53,137 +51,6 @@
 }
 
 
-/* 커스텀 */
-body {
-  font-family: "Roboto", "Noto Sans KR", sans-serif !important;
-
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-  color: #424242;
-  font-variation-settings:
-    "wdth" 100;
-}
-.me-img{visibility:hidden;}
-.custom-title-icon{visibility:hidden;}
-
-.me-background-color{background-color: #f5f5f5;}
-
-
-/* swiper */
-.swiper-wrapper {
-    transition-timing-function: linear !important;
-}
-
-.swiper-slide {
-    width: auto !important; 
-    position: relative;
-}
-.swiper-slide img{
-    width: auto; 
-    height: 300px;
-}
-.swiper-slide a:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* 반투명 검은색 배경 설정 */
-    background-color: rgba(0, 0, 0, 0.3); 
-    z-index: 10; /* 이미지 위에 오도록 설정 */
-}
-.swiper-slide a:hover:after {
-    opacity: 0; /* 투명도를 0으로 만들어 레이어가 거의 사라지게 함 */
-}
-
-/* 자세히 보기 버튼 */
-.me-line{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-.me-button{
-  background: #F99090;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 8px;
-  display: flex;
-  text-align: center;
-  color: white;
-  gap: 5px;
-}
-.me-button span{
-  display: block;
-}
-.about .col{
-  padding-left: 0;
-  padding-right: 0;
-}
-.me-background-img{
-  background: url(../assets/img/portfolio/profile_background.jpg);
-}
-.me-background-img h2{
-  padding-top: 6rem;
-}
-p{margin: 0;}
-
-/* 프로필 */
-section .profile{
-  display: flex;
-  align-items: center;
-  padding: 6.21875rem 0;
-}
-section .profile picture{
-  margin-right: 9.15625rem;
-  display: block;
-}
-.profile-column{
-  height:324px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-right: 8.1875rem;
-}
-.education .profile-title, .skills .profile-title{
-  margin-bottom: 18px;
-}
-
-.profile-title{
-  color: #CC4A53;
-  font-weight: 700;
-  font-size: 1.5rem;
-  display: inline-block;
-}
-.profile-gap{
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
-}
-.profile-days{
-  color:#212121;
-  font-weight: 600;
-  font-size: 1.25rem;
-}
-.profile-career{
-  font-weight: 500;
-  font-size: 1.25rem;
-}
-.skills div img{
-  display: inline-block;
-  margin: 8px;
-}
-.font-weight-bold{
-  font-weight: 600;
-}
-
-
-
-/* //커스텀 */
-
-
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -203,6 +70,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 700;
   line-height: 1.2;
 }
+
+
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
@@ -326,11 +195,11 @@ sup {
 }
 
 a {
-  color: #FA4242;
+  color: inherit;
   text-decoration: none;
 }
 a:hover {
-  color: #FA4242;
+  color: inherit;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11113,7 +10982,8 @@ html {
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  color: #7B7B7B;
 }
 .masthead .masthead-avatar {
   width: 15rem;
@@ -11129,7 +10999,7 @@ html {
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
 .portfolio .portfolio-item {
@@ -11174,10 +11044,10 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #5C5552;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #433633;
 }

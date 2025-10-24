@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/custom.css">
         <link rel="stylesheet" href="css/swiper-bundle.css">
     </head>
     <body id="page-top">
@@ -35,21 +36,18 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
+        <header class="masthead bg-primary text-end text-white">
+            <div class="container d-flex flex-column">
                 <!-- Masthead Avatar Image-->
                 <img class="masthead-avatar mb-5 me-img" src="assets/img/avataaars.svg" alt="..." />
                 
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0 ">Portpolio</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light custom-title-icon">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
+                <p class="masthead-subheading font-weight-bold mb-0">배움을 통해 더 나아가는</p><br>
+
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-bold mb-0">aa</p>
+                <h1 class="masthead-heading text-uppercase mb-0 ">윤혜원
+                    <span class="heading-span">입니다.</span>
+                </h1>
             </div>
         </header>
         <!-- Portfolio Section-->
@@ -65,16 +63,9 @@
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-4 col-lg-4 mb-5 ">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/detailpage.jpg" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
+
+                    <!-- Portfolio Item 1 배스킨라빈스-->
+
                     <div class="col-md-4 col-lg-4 mb-5 ">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -83,7 +74,8 @@
                             <img class="img-fluid" src="assets/img/portfolio/baskinrobbins.jpg" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 3-->
+
+                    <!-- Portfolio Item 2 해암문화재단-->
                     <div class="col-md-4 col-lg-4 mb-5 ">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -92,16 +84,27 @@
                             <img class="img-fluid" src="assets/img/portfolio/heam.jpg" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 4-->
+                    <!-- Portfolio Item 3 할리스-->
                     <div class="col-md-4 col-lg-4 mb-5 ">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/hollys.jpg" alt="..." />
+                            </div>
+                    </div>
+                    
+                    <!-- Portfolio Item 4 상세페이지-->
+                    <div class="col-md-4 col-lg-4 mb-5 ">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/hollys.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/detailpage.jpg" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 5-->
+
+                    <!-- Portfolio Item 5 여행프로모션-->
                     <div class="col-md-4 col-lg-4 mb-5 ">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -111,14 +114,14 @@
                         </div>
                     </div>
                     <!-- Portfolio Item 6-->
-                    <!-- <div class="col-md-4 col-lg-4 mb-5 ">
+                    <div class="col-md-4 col-lg-4 mb-5 ">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/innisfree.jpg" alt="..." />
                         </div>
-                    </div> -->
+                    </div>
 			      <!-- Portfolio Item 7-->
                     <!-- <div class="col-md-6 col-lg-4 mb-5 ">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
@@ -163,10 +166,18 @@
                         <img src="assets/img/portfolio/profile.png" alt="">
                     </picture>
                     <div class="profile-column">
+                        <p class="profile-title">EDUCATION</p>
                         <div class="education">
-                            <p class="profile-title">EDUCATION</p>
-                            <p class="profile-days">2025</p>
-                            <p class="profile-career">영진직업전문학교<br>(디지털디자인 교육이수)</p>
+                            <div>
+                                <p class="profile-days">2017.03 ~ 2020.02
+                                </p>
+                                <p class="profile-career">계명문화대학교 졸업<br>(유아특수보육과)</p>
+                             </div>
+                            <div>
+                                <p class="profile-days">2025.05 ~ 2025.10
+                                </p>
+                                <p class="profile-career">영진직업전문학교 이수<br>(디지털디자인웹퍼블리셔),UI/UX,웹디자인</p>
+                            </div>
                         </div>
                         <div class="skills">
                             <p class="profile-title">SKILLS</p>
@@ -185,15 +196,15 @@
                     <div class="profile-gap">
                         <p class="profile-title">WORK EXPEPIENCE</p>
                         <div>
-                            <p class="profile-days">2020.07~2021.03</p>
-                            <p class="profile-career">사회복지법인 죽곡재단 어린이집<br>(담임보육교사)</p>
+                            <p class="profile-days">2020.07 ~ 2021.03</p>
+                            <p class="profile-career">사회복지법인 죽곡재단 어린이집(담임보육교사)</p>
                         </div>
                          <div>
-                            <p class="profile-days">2022.12~2023.03</p>
-                            <p class="profile-career">국공립 명곡어린이집<br>(보조보육교사)</p>
+                            <p class="profile-days">2022.12 ~ 2023.03</p>
+                            <p class="profile-career">국공립 명곡어린이집(보조보육교사)</p>
                         </div>
                          <div>
-                            <p class="profile-days">2023.03~2025.03</p>
+                            <p class="profile-days">2023.03 ~ 2025.03</p>
                             <p class="profile-career">리틀삐아제어린이집(담임보육교사)</p>
                         </div>
                     </div>
@@ -207,28 +218,23 @@
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <h4 class="text-uppercase mb-4">윤혜원</h4>
                         <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
+                            1997.04.01
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                        <h4 class="text-uppercase mb-4">Phone</h4>
+                        <p class="lead mb-0">
+                            010.7255.4579
+                        </p>
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <h4 class="text-uppercase mb-4">카카오톡 오픈채팅</h4>
                         <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
+                            <a class="btn btn-outline-light btn-social mx-1" href="https://open.kakao.com/o/secOBFYh" target="_blank"><img src="assets/img/portfolio/kakaotalk.png" alt=""></a>
                         </p>
                     </div>
                 </div>

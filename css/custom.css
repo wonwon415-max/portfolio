@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 커스텀 */
+body {
+  font-family: "Roboto", "Noto Sans KR", sans-serif !important;
+
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: #424242;
+  font-variation-settings:
+    "wdth" 100;
+  margin: 0;
+}
+.me-img{visibility:hidden;}
+.custom-title-icon{visibility:hidden;}
+
+.me-background-color{background-color: #f5f5f5;}
+
+/* header */
+.heading-span{
+  color: #424242;
+  font-size: 1.25rem;
+}
+
+
+/* swiper */
+.swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+
+.swiper-slide {
+    width: auto !important; 
+    position: relative;
+}
+.swiper-slide img{
+    width: auto; 
+    height: 300px;
+}
+.swiper-slide a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* 반투명 검은색 배경 설정 */
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: 10; /* 이미지 위에 오도록 설정 */
+}
+.swiper-slide a:hover:after {
+    opacity: 0; /* 투명도를 0으로 만들어 레이어가 거의 사라지게 함 */
+}
+
+/* 자세히 보기 버튼 */
+.me-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.me-button{
+  background: #F99090;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: flex;
+  text-align: center;
+  color: white;
+  gap: 5px;
+}
+.me-button span{
+  display: block;
+}
+.about .col{
+  padding-left: 0;
+  padding-right: 0;
+}
+.me-background-img{
+  background: url(../assets/img/portfolio/profile_background.jpg);
+}
+.me-background-img h2{
+  padding-top: 6rem;
+}
+p{margin: 0;}
+
+/* 프로필 */
+section .profile{
+  display: flex;
+  justify-content: space-between;
+  padding: 6.21875rem 0;
+}
+section .profile picture{
+  display: block;
+  align-content: center;
+}
+.profile-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.profile-title{
+  color: #CC4A53;
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+.education{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.profile-gap{
+  display: flex;
+  flex-direction: column;
+}
+.profile-gap div:nth-child(3){
+  margin: 1rem 0;
+}
+.profile-days{
+  color:#212121;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.profile-career{
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.skills div img{
+  display: inline-block;
+  margin: 8px;
+}
+.font-weight-bold{
+  font-weight: 600;
+}
