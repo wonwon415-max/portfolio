@@ -11026,10 +11026,11 @@ html {
 }
 
 .portfolio-modal .btn-close {
-  color: #1abc9c;
+  color: #F99090;
   font-size: 2rem;
   padding: 1rem;
 }
+
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
@@ -11050,4 +11051,5 @@ html {
 
 .copyright {
   background-color: #433633;
+  color: #686868;
 }
